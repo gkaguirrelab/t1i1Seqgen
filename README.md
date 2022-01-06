@@ -10,3 +10,5 @@ Once you have compiled the code, you can examine the help options with `./seqgen
 A typical call to the routine might be:
 `./seqgen -l -n 7 -t 10`
 which will provide a total of 10 counter-balanced sequences of 7 elements. The `-l` option forms the sequence output as a single line, as opposed to a matrix.
+
+Do not attempt to call the routine with n<=5, as no valid Type 1 Index 1 sequences exist, and the code does not handle this situation gracefully...
