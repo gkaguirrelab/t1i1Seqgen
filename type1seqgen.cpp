@@ -511,7 +511,7 @@ void confirm(seq_t s)
 void evaluate(seq_t s)
 {
   //int matrix[n][n];
-    int** matrix = (int**) malloc(sizeof(int) * n);
+    int** matrix = (int**) malloc(sizeof(int*) * n);
   //cout << "matrix is: " << endl;
   for (int i = 0; i < n; i++) {
   matrix[i] = (int*) malloc(sizeof(int) * n);
