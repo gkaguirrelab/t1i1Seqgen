@@ -12,3 +12,5 @@ A typical call to the routine might be:
 which will provide a total of 10 counter-balanced sequences of 7 elements. The `-l` option forms the sequence output as a single line, as opposed to a matrix.
 
 Do not attempt to call the routine with n<=5, as no valid Type 1 Index 1 sequences exist, and the code does not handle this situation gracefully...
+
+More information regarding these sequences may be found here: https://cfn.upenn.edu/aguirre/wiki/doku.php?id=public:t1i1_sequences
