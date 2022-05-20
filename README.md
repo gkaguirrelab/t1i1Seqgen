@@ -64,6 +64,11 @@ T1I1 sequences may differ in the degree to which the ordering of the stimuli wit
 
 Sequences may be sought that maximize the orthogonality between labels and position within permuted blocks, and minimize the tendency for there to be "trends" in the order of labels across blocks. These are referred to as Criterion 4 and Criterion 5, and Nonyane and Theobald offer equations to measure these properties.
 
+  * Criterion 4 measures the lack of orthogonality between labels and position within blocks. If (e.g.) label "3" tended to appear at the 2nd position within each permuted block, then Criterion 4 would be inflated.
+  * Criterion 5 (mis-labeled as "Criterion 9" in the code) measures trends in the sequence of labels. So, if the labels tend to be ordered "1-2-3-..." in multiple blocks, then Criterion 5 would beinflated.
+
+
+
 Sequences may also differ in their [Efficiency](http://www.ncbi.nlm.nih.gov/pubmed/10547338) for use with a BOLD fMRI experiment. This is a measure of the ability of a particular experimental design to create temporal patterns of neural activity that can pass through the hemodynamic response function (HRF) to be represented in the BOLD fMRI signal. The Efficiency of a T1I1 sequence can only be measured with respect to an assumed shape of HRF and some hypothesized magnitude of neural response to the different stimuli to be used.
 
 ## Optimal stimulus duration in a T1I1 sequence, carry-over experiment
