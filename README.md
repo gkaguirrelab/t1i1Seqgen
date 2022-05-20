@@ -58,14 +58,6 @@ Usage:
                       Default is to just keep going.
 ```
 
-A typical call might be:
-
-```
-./seqgen -l -n 6 -t 10
-```
-
-Which would provide 10, type 1 index 1 sequences with n=6 letters, along with the Criterion 4 and 5 scores for each sequence.
-
 ## Evaluating the "quality" of a T1I1 sequence
 
 T1I1 sequences may differ in the degree to which the ordering of the stimuli within blocks is evenly distributed (e.g., label 6 occurs equally often in all possible positions within a block) and any trends in the ordering of stimuli are minimized. While these criteria cannot be perfectly satisfied, different sequences depart from this ideal to different degrees. Nonyane and Theobald offer metrics for these departures, and sequences may be selected based upon minimization of these scores.
