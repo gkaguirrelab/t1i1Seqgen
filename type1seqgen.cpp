@@ -43,7 +43,7 @@ void confirm(seq_t s);
 void evaluate(seq_t s);
 int searchCol(int inputNum, seq_t s, int col);
 int get4(int** s);
-int get9(int** s);
+int get5(int** s);
 int atoi(string s) { stringstream ss(s); int n; ss >> n; return n; }
 int main(int argc, char* argv[]) {
 
@@ -507,7 +507,7 @@ void confirm(seq_t s)
   }
 }
 
-/* This function evaluates the sequence and prints out criterion 4 and criterion 9 value */
+/* This function evaluates the sequence and prints out criterion 4 and criterion 5 value */
 void evaluate(seq_t s)
 {
   //int matrix[n][n];
@@ -524,10 +524,10 @@ void evaluate(seq_t s)
   }
 
   if (quiet){
-	 cout << get4(matrix) << "," << get9(matrix) << endl;
+	 cout << get4(matrix) << "," << get5(matrix) << endl;
   } else {
 	 cout << "Criterion 4: " << get4(matrix) << endl;
-	 cout << "Criterion 9: " << get9(matrix) << endl;
+	 cout << "Criterion 5: " << get5(matrix) << endl;
   }
 
 
@@ -556,8 +556,8 @@ int get4(int** s)
   return sum;
 }
 
-/* This function returns criterion 9 value */
-int get9(int** s)
+/* This function returns criterion 5 value */
+int get5(int** s)
 {
   int sum = 0;
   int lineSum = 0;
